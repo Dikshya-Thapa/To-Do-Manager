@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="profile">
+      <img src="https://via.placeholder.com/40" alt="Profile" />
+      <div class="profile-info">
+        <strong>Dikshya Thapa</strong><br>
+        <span>dikshya428@gmail.com</span>
+      </div>
+    </div>
+
+    <nav>
+      <button>Dashboard</button>
+      <button>All Tasks</button>
+      <button>Pending</button>
+      <button>Completed</button>
+      <button>Categories</button>
+    </nav>
+
+    <h1>To-Do Manager</h1>
+
+    <div class="search-section">
+      <input type="text" placeholder="Search Tasks..." />
+      <select>
+        <option>Sort By</option>
+      </select>
+      <select>
+        <option>Filter</option>
+      </select>
+      <button>+ Create Task</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Title</th>
+          <th>Due Date</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Wireframe Design</td>
+          <td>1/06/2025</td>
+          <td>High</td>
+          <td>Pending</td>
+          <td class="actions">
+            <button title="Edit">✏️</button>
+            <button title="Delete">🗑️</button>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Landing Page</td>
+          <td>1/06/2025</td>
+          <td>Medium</td>
+          <td>Pending</td>
+          <td class="actions">
+            <button title="Edit">✏️</button>
+            <button title="Delete">🗑️</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
